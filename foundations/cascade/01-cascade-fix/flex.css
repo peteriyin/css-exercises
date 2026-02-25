@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+.flex-container {
+  display: flex;
+  margin: 10px;
+  background-color: rgb(101, 21, 21);
+  padding: 10px;
+  height: 300px;
+}
+
+.flex-container div {
+  background-color: peachpuff;
+  border: 5px solid rgb(166, 61, 61);
+  height: 100px;
+  width: 100px;
+  /* flex: 1; */
+}

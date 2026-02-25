@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -14,12 +15,32 @@ body {
   align-items: center;
   justify-content: center;
 }
+/* 
+.text {
+  margin-top: 10px;
+  margin-bottom: 13px;
+} */
 
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  display: flex;
+  gap: 16px;
+}
+
+.header {
+  font-weight: 900;
+  font-size: 20px;
+  display: flex;
+  gap: 90px;
+}
+
+.text {
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .icon {
@@ -33,6 +54,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
